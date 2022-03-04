@@ -35,7 +35,7 @@ THEN I exit the application, and the HTML is generated
 
 The following image shows a mock-up of the generated HTML’s appearance and functionality:
 
-![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/screencapture-file-C-Users-indel-profile-repo-4team-Profile-repo-4Team-dist-index-html-2022-03-04-16_24_30.jpg)
+![Screenshot-of-HTML](./Assets/screenshot.jpg)
 
 
 
