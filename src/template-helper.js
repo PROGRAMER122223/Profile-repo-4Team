@@ -5,8 +5,8 @@ const createTeam = team => {
         return `
         <div class="card managerCard">
             <div class="card-header">
-                <h4 class="card-title">${manager.getName()}</h2>
-                <h5 class="card-title">${manager.getRole()}</h3>
+                <h2 class="card-title">${manager.getName()}</h2>
+                <h3 class="card-title"><i class="fas fa-tasks"></i>${manager.getRole()}</h3>
             </div>
             <div class="card-body bg-light">
                 <ul class="list-group text-dark">
@@ -23,8 +23,8 @@ const createTeam = team => {
         return `
         <div class="card engineerCard">
             <div class="card-header">
-                <h4 class="card-title">${engineer.getName()}</h2>
-                <h5 class="card-title">${engineer.getRole()}</h3>
+                <h2 class="card-title">${engineer.getName()}</h2>
+                <h3 class="card-title"><i class="fas fa-laptop-code"></i>${engineer.getRole()}</h3>
             </div>
             <div class="card-body bg-light">
                 <ul class="list-group text-dark">
@@ -40,8 +40,8 @@ const createTeam = team => {
         return `
         <div class="card internCard">
             <div class="card-header">
-                <h4 class="card-title">${intern.getName()}</h2>
-                <h5 class="card-title">${intern.getRole()}</h3>
+                <h2 class="card-title">${intern.getName()}</h2>
+                <h3 class="card-title"><i class="fas fa-user-graduate"></i>${intern.getRole()}</h3>
             </div>
             <div class="card-body bg-light">
                 <ul class="list-group text-dark">
@@ -81,6 +81,7 @@ module.exports = team => {
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Team Profile Generator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./style.css"
     script src="https://kit.fontawesome.com/c502137733.js"></script>
 </head>
