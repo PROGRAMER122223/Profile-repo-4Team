@@ -35,11 +35,11 @@ THEN I exit the application, and the HTML is generated
 
 The following image shows a mock-up of the generated HTML’s appearance and functionality:
 
-![Screenshot-of-HTML](./Assets/screenshot.jpg)
+![Screenshot-of-HTML](assets/screenshot.jpg)
 
 
 
-[VIDEO LINK-Full Application Demonstration](./assets/teamprofile%20.mp4)  
+[VIDEO LINK-Full Application Demonstration](assets/teamprofile%20.mp4)  
 
 ## Installation
 1 Clone this  repo to your machine.
