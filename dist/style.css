@@ -1,0 +1,13 @@
+.style-heading{
+    background-color: rgb(66, 96, 230);
+}
+
+.managerCard{
+    background-color: tomato;
+}
+.engineerCard{
+    background-color: orange;
+}
+.internCard{
+    background-color: rgb(123, 204, 70);
+}
