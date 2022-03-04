@@ -38,7 +38,7 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 ![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/screencapture-file-C-Users-indel-profile-repo-4team-Profile-repo-4Team-dist-index-html-2022-03-04-16_24_30.jpg)
 
 [video about my Team](./assets/teamprofile%20.mp4)
-[VIDEO LINK | Full Application Demonstration](./assets/teamprofile%20.mp4)  
+[VIDEO LINK-Full Application Demonstration](./assets/teamprofile%20.mp4)  
 ## Installation
 1 Clone this  repo to your machine.
 
