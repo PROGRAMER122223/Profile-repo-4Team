@@ -1,7 +1,7 @@
 //create team function
-const createTeam= team =>{
-//manager
-    const createManager= manager=> {
+const createTeam = team => {
+    //manager
+    const createManager = manager => {
         return `
         <div class="card managerCard">
             <div class="card-header">
@@ -18,8 +18,8 @@ const createTeam= team =>{
         </div>
             `
     }
-   //engineer
-    const createEngineer= engineer=> {
+    //engineer
+    const createEngineer = engineer => {
         return `
         <div class="card engineerCard">
             <div class="card-header">
@@ -35,8 +35,8 @@ const createTeam= team =>{
             </div>
         </div>`
     }
-//intern
-    const createIntern= intern=> {
+    //intern
+    const createIntern = intern => {
         return `
         <div class="card internCard">
             <div class="card-header">
@@ -53,26 +53,26 @@ const createTeam= team =>{
         </div>`
     }
 
-    const html= []
-//filter creates array for role matching excluding others,map creates exact new array
+    const html = []
+    //filter creates array for role matching excluding others,map creates exact new array
     html.push(team
-        .filter(employee=> employee.getRole() === "Manager")
-        .map(manager=> createManager(manager))
-        )
-     html.push(team
-        .filter(employee=> employee.getRole() === "Engineer")
-        .map(manager=> createEngineer(manager))
-        )
+        .filter(employee => employee.getRole() === "Manager")
+        .map(manager => createManager(manager))
+    )
     html.push(team
-        .filter(employee=> employee.getRole() === "Intern")
-        .map(manager=> createIntern(manager))
-        )
+        .filter(employee => employee.getRole() === "Engineer")
+        .map(manager => createEngineer(manager))
+    )
+    html.push(team
+        .filter(employee => employee.getRole() === "Intern")
+        .map(manager => createIntern(manager))
+    )
 
     return html.join("")
 }
 
-module.exports= team=>{
-    return`
+module.exports = team => {
+    return `
     <!DOCTYPE html>
 <html lang= "en">
 <head>
@@ -92,6 +92,7 @@ module.exports= team=>{
             </div>
         </div>
     </div>
+    <br>
     <div class="container-fluid bodyStyle">
         <div class="row">
             <div class="col-12 d-flex justify-content-around">
