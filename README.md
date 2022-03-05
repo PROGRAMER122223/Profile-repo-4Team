@@ -37,9 +37,11 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 
 ![Screenshot-of-HTML](assets/screenshot.jpg)
 
+## Link to Walkthrough Video
+
+https://watch.screencastify.com/v/qP9AKXxkbeGyLD1hj0c4
 
 
-[VIDEO LINK-Full Application Demonstration](assets/teamprofile%20.mp4)  
 
 ## Installation
 1 Clone this  repo to your machine.
